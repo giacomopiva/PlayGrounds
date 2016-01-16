@@ -24,10 +24,3 @@ for name in names {
 for (i, name) in names.enumerate() {
     print("names[\(i)] \(name)!")
 }
-
-var j:Int = 0
-
-for var i in 0...10 {
-    j.advancedBy(1)
-}
-
